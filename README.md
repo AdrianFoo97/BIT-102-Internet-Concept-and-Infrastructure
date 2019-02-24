@@ -2,6 +2,8 @@
 
 ### First assignement in year 1 related to web development. Basic web development concepts including HTML, CSS are learnt in this subject order to constract a website from scratch.
 
+### This website displays information related to horoscope.
+
 #### Directory structure: 
 1. Home page: index.html, index.css
 2. Horoscope page: horoscope.html, horoscope.css
