@@ -1,0 +1,39 @@
+
+
+			#background{margin:0;
+								display:block;
+								width:100%;}
+			#about p{padding:50px 300px 50px 300px;
+							font-size:2em;
+							color:#FFFFFF;
+							background-color:#34495e;
+							margin:0;
+							font-family:"Comic Sans MS",serif;}
+			#about h1{text-align:center;
+							background-color:#c0392b;
+							color:#FFFFFF;
+							margin:0;
+							font-size:60px;
+							font-family:Impact,serif;}
+			#signin{background-color:#ecf0f1;
+						margin:0;
+						overflow:auto;}
+			#signin h1{font-size:60px;
+							font-family:Impact,serif;
+							text-align:center;
+							margin:0;}
+			#form1{float:left;
+						padding-left:350px;}
+			#form2{float:right;
+						padding-right:350px;}
+			.fotorama{margin:0;}
+			
+@media only screen and (max-width: 1024px){
+	#about p{padding:1em;}
+	#form2{float:none;
+				padding:0;
+				text-align:center;}
+	#form1{float:none;
+				padding:0 0 50px 0;
+				text-align:center;}
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>HOROSCOPE</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+	<!--[if lt IE 9]>
+    <script src=" http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+    <![endif]-->
+</head>
+	<body id="wrapper">
+		<div id="top">
+			<a href="main.html"><img src="images/logo.png" height="50" id="logo" alt="logo" ></a>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="horoscopes.html">Horoscopes</a></li>
+					<li><a href="video.html">Video</a></li>
+					<li><a href="aboutus.html">About Us</a></li>	
+					<li><a href="reference.html">Reference</a></li>
+					<li><a href="support.html">Guide</a></li>				
+				</ul>
+			</nav>
+		</div>
+		<div id="blank">
+		</div>
+
+		<div >
+			<!-- 1. Link to jQuery (1.8 or later), -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+		<!-- fotorama.css & fotorama.js. -->
+		<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+		<!-- 2. Add images to <div class="fotorama"></div>. -->
+		<div class="fotorama" data-autoplay="true" data-height="680" data-width="100%">
+			<img src="images/image10.jpg" alt="pic1">
+			<img src="images/image7.jpg" alt="pic2">
+			<img src="imageas/image3.jpg" alt="pic3">
+			<img src="images/image8.jpg" alt="pic4">
+			<img src="images/image11.jpg" alt="pic5">
+			<img src="images/image12.jpg" alt="pic6">
+			<img src="images/image1.jpg" alt="pic7">
+			<img src="images/image8.jpg" alt="pic8">
+			<img src="images/image9.jpg" alt="pic9">
+			<img src="images/image6.jpg" alt="pic10">
+			<img src="images/image9.jpg" alt="pic11">
+			<img src="images/image4.jpg" alt="pic12">
+		</div>
+		</div>
+		<div id="about">
+			<h1>About Horoscope</h1>
+				<p> There are 12 zodiac signs that are Aquarius,Pisces, Aries, Taurus, Gemmini, Cancer,    Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn. Each sign has its own strengths and weaknesses, its own specific traits, desires and attitude towards life and people. This 12 zodiac signs is based on the date and month of birth. Astrology can give us a glimpse of a person's basic characteristics, preferences, flaws and fears based on their date and month of birth. We let you to find out which is your zodiac sign and know yur characteristics, fortune, profile and love compatibility.</p>
+		</div>
+		<div id="signin">
+			<h1>Join Us Now</h1><br>
+			<div id="form">
+				<form method="post" id="form1">
+					User Name:<br><input type="text" name="name" id="name" maxlength="10" size="50" required><br><br>
+					Password:<br><input type="password" name="password" size="50" required><br>
+					<input type="checkbox" name="log in" value="log in">keep me logged in<br><br>
+					<input type="submit" value="Sign In"> <input type="reset">
+				</form>
+				<form method="post" action="http://webdevbasics.net/scripts/demo.php " id="form2">
+					<label>Name:</label><br><input type="text" name="First Name" placeholder="First Name" required>&nbsp; &nbsp;
+					<input type="text" name="Last Name" placeholder="Last Name" required><br><br>
+					<label>Email:</label><br><input type="email" name="Email" id="email" size="50" placeholder="example@hotmail.com" required><br><br>
+					<label>Gender:</label> &nbsp;
+					<input type="radio" name="sex" value="male"  required>Male
+					<input type="radio" name="sex" value="female" required>Female<br><br>
+					<label>Password:</label><br><input type="password" name="Password" size="50" required><br><br>
+					<label>Birthday:</label><br><input type="number" name="date" id="date"   min="1" max="31" required>
+										<input type="number" name="month" id="month" min="1" max="12" required>
+										<input type="number" name="year" id="year" min="1916" max="2016" required>					<br><br>
+					<input type="submit" value="Sign Up" > <input type="reset"><br><br>
+				</form>
+			</div>
+		</div>
+		<footer>
+		<nav>
+			<a href="home.html">Home</a>&nbsp; &#9474; &nbsp;
+			<a href="horoscopes.html">Horoscopes</a>&nbsp;  &#9474; &nbsp;
+			<a href="video.html">Video</a>&nbsp; &#9474; &nbsp;
+			<a href="reference.html">Reference</a>&nbsp; &#9474; &nbsp;
+			<a href="support.html">Support</a> 
+		</nav>
+		copyright &copy; 2016 Horoscope<br>
+		<a href="mailto:horoscope@outlook.com">horoscope@outlook.com</a><br>
+		<a href="tel:012-345 6789">012-345 6789</a>
+		<h5>Page last modified on</h5>
+		<script>document.write(document.lastModified);</script>
+	</footer>
+	</body>
+	
+</html>

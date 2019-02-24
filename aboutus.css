@@ -1,0 +1,33 @@
+
+#aboutus h1{text-align:left;
+							font-family:"Comic Sans MS",serif;
+							font-weight:bold;
+							font-size:50px;
+							background-color:#000000;
+							border-bottom:2px solid #c0392b;
+							margin:0;
+							color:#FFFFFF;
+							overflow:auto;
+							padding-top:100px;
+							padding-left:250px;}
+content{color:#2c3e50;
+			padding:0;
+			margin:0;}
+#paragraph{background-color:#ecf0f1;
+					padding:0 0 200px 0;
+					margin:0;
+					border: 10px solid #FFFFFF;
+					border-top:none;
+					border-bottom:none;}
+p{margin:0;
+padding:30px 250px 50px 250px;
+font-size:1.75em;}
+
+@media only screen and (max-width: 1024px){
+	#aboutus h1{padding:0;
+						text-align:center;}
+	#paragraph {padding:0;
+						margin:0;}
+	p{padding:0;
+	margin:0;}
+}

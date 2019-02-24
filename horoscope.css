@@ -1,0 +1,83 @@
+
+	#blank{background-color:red;
+				height:85px;}		
+	table tr td{color:#FFFFFF;
+					padding:35px;
+					font-family:"Comic Sans MS",serif;}
+	table {margin:auto;
+			width:100%;
+			text-align:center;
+			background-color:red;
+			border-collapse:collapse;}
+	td{text-align:center;
+		height:100%;}
+	tr td a{text-decoration:none;
+				color:#000000;
+				display:inline-block;
+				height:100%;
+				width:100%;}
+	h1{background-color:#ecf0f1;
+		margin:0;
+		text-align:center;
+		color:#bdc3c7;
+		height:85px;
+		font-size:70px;}
+	.horoscope{margin:0;
+				overflow:auto;
+				padding:0px;}
+	.paragraph p{margin:0;
+				 float:right;
+				 width:75%;
+				 padding:20px;
+				 font-size:20px;
+				 font-family:"Comic Sans MS",serif;}
+	.paragraph2 p{margin:0;
+				text-align:left;
+				padding:10px;
+				font-size:20px;
+				font-family:"Comic Sans MS",serif;}
+	.paragraph2{text-align:center;
+				margin:0;
+				padding:20px;}
+	p a{color:#000000;}
+	.paragraph p a{text-decoration:none;}
+	#style1 p{background-color:#95a5a6;}
+	#style2 p{background-color:#3498db;}
+	#style3 p{background-color:#1abc9c;}
+	#style4 p{background-color:#2ecc71;}
+	#style5 p{background-color:#3498db;}
+	#style6 p{background-color:#e67e22;}
+	#style7 p{background-color:#f1c40f;}
+	#style8 p{background-color:#1abc9c;}
+	#style9 p{background-color:#e74c3c;}
+	#style10 p{background-color:#bdc3c7;}
+	#style11 p{background-color:#9b59b6;}
+	#style12 p{background-color:#f1c40f;}
+	#bgcolor1{background-color:#7f8c8d;}
+	#bgcolor2{background-color:#2980b9;}
+	#bgcolor3{background-color:#16a085;}
+	#bgcolor4{background-color:#27ae60;}
+	#bgcolor5{background-color:#2980b9;}
+	#bgcolor6{background-color:#d35400;}
+	#bgcolor7{background-color:#f39c12;}
+	#bgcolor8{background-color:#16a085;}
+	#bgcolor9{background-color:#c0392b;}
+	#bgcolor10{background-color:#95a5a6;}
+	#bgcolor11{background-color:#8e44ad;}
+	#bgcolor12{background-color:#f39c12;}
+	#table1{background-color:#95a5a6;}
+	#table2{background-color:#3498db;}
+	#table3{background-color:#34495e;}
+	#table4{background-color:#2ecc71;}
+	#table5{background-color:#3498db;}
+	#table6{background-color:#e67e22;}
+	#table7{background-color:#f1c40f;}
+	#table8{background-color:#1abc9c;}
+	#table9{background-color:#e74c3c;;}
+	#table10{background-color:#bdc3c7;}
+	#table11{background-color:#9b59b6;;}
+	#table12{background-color:#7f8c8d;}
+
+@media only screen and (max-width: 1024px){
+	.paragraph p{float:none;}
+}
