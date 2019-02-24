@@ -1,6 +1,6 @@
 # BIT-102-Internet-Concept-and-Infrastructure
 
-### First assignement in year 1 related to web development. Through this assignment, HTML, CSS are learnt in order to constract a website from scratch.
+### First assignement in year 1 related to web development. Basic web development concepts including HTML, CSS are learnt in this subject order to constract a website from scratch.
 
 #### Directory structure: 
 1. Home page: index.html, index.css
